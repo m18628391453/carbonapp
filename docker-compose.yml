@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  nextalk:
+    image: {YourDockerHub}/{OrgName}/{ImageName}:latest
+    container_name: {ImageName}
+    restart: always
+    ports:
+      - "2888:3000"
+    environment:
+      - NODE_ENV=production
+
+      
