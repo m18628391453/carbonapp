@@ -24,7 +24,6 @@ export default function DashboardLayout({
         <div className="flex flex-1 overflow-hidden">
           {/* 侧边栏占位（以后放开 hidden） */}
           {/* <aside className="w-64 bg-[#050D1D] border-r border-[#1A2A4A] p-4 hidden">...</aside> */}
-
           <main className="flex-1 h-[calc(100vh-56px)] overflow-hidden">
             {children}
           </main>
